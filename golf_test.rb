@@ -55,4 +55,32 @@ module GolfTest
       assert_equal 'Beli wkuoc wo rkzzi', Golf.hole3('Ruby makes me happy', 10)
     end
   end
+
+  class Hole4Test < Minitest::Test
+    def test_roman_numerals_simple
+      assert_equal 'I', Golf.hole4(1)
+      assert_equal 'II', Golf.hole4(2)
+      assert_equal 'III', Golf.hole4(3)
+    end
+
+    def test_roman_numerals_round_numbers
+      assert_equal 'X', Golf.hole4(10)
+      assert_equal 'L', Golf.hole4(50)
+      assert_equal 'C', Golf.hole4(100)
+      assert_equal 'D', Golf.hole4(500)
+      assert_equal 'M', Golf.hole4(1000)
+    end
+
+    def test_roman_numerals_less_simple
+      assert_equal 'IV', Golf.hole4(4)
+      assert_equal 'IX', Golf.hole4(9)
+      assert_equal 'XIV', Golf.hole4(14)
+      assert_equal 'XX', Golf.hole4(20)
+    end
+
+    def test_roman_numerals_very_complex
+      assert_equal 'MCMLXXVIII', Golf.hole4(1978)
+      assert_equal 'MCMXCIX', Golf.hole4(1999)
+    end
+  end
 end

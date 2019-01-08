@@ -41,6 +41,18 @@ module Golf
 
   end # Hole 3
 
+  # Hole 4: Roman Numerals
+  #
+  # Write a simple function to turn an integer into its roman numeral form. To get
+  # you started, here's the first ten numbers: I, II, III, IV, V, VI, VII, VIII, IX, X...
+  #
+  # The parameter `i` is the number to convert
+  def hole4(i)
+
+    # put your implementation in here, but please leave the comments above and at the 'end'
+
+  end # Hole 4
+
   # Please ignore this little bit of code plumbing
   extend self
 end
