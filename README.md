@@ -19,7 +19,9 @@ sure that your implementations work, and also some helper code to count how many
 characters you've used.
 
 To get started, take a look at the tests in `golf_test.rb` for "Hole 1", and then
-start writing your implementation in the `Golf.hole1` method implementation!
+start writing your implementation in the `Golf.hole1` method implementation.
+
+You don't need to attempt all of the holes; if you're stuck or not having fun, just try a different one!
 
 ## Scoring
 
