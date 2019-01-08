@@ -29,7 +29,7 @@ module Golf
   # the string you receive into the original message. For example:
   #
   #  * "abc" with a shift of 1 becomes "bcd"
-  #  * "Kello" with a shift of 3 becomes "Khoor"
+  #  * "Hello" with a shift of 3 becomes "Khoor"
   #  * "Jazz Hands" with a shift of 10 becomes "Mdcc Kdqgv"
   #
   # Your solution should handle upper and lowercase letters, retaining their case.
