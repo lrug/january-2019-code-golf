@@ -83,4 +83,18 @@ module GolfTest
       assert_equal 'MCMXCIX', Golf.hole4(1999)
     end
   end
+
+  class Hole5Test < Minitest::Test
+    def test_evil_numbers_up_to_10
+      assert_equal [0, 3, 5, 6, 9, 10], Golf.hole5(10)
+    end
+
+    def test_evil_numbers_up_to_50
+      assert_equal [
+        0, 3, 5, 6, 9, 10, 12, 15, 17,
+        18, 20, 23, 24, 27, 29, 30, 33,
+        34, 36, 39, 40, 43, 45, 46, 48
+      ], Golf.hole5(50)
+    end
+  end
 end

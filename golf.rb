@@ -53,6 +53,20 @@ module Golf
 
   end # Hole 4
 
+  # Hole 5: Evil Numbers
+  #
+  # An "evil" number is one which has an even number of '1' digits in its binary version.
+  # So for example, 5 is evil because `101` has 2, but 11 is _not_ evil, because `1011`
+  # does not. Find all the numbers (starting at 0, up to the limit) which are evil, and
+  # return an array of them.
+  #
+  # The parameter `l` is the highest number to consider
+  def hole5(l)
+
+    # put your implementation in here, but please leave the comments above and at the 'end'
+
+  end # Hole 5
+
   # Please ignore this little bit of code plumbing
   extend self
 end
