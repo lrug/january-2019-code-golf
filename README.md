@@ -30,7 +30,16 @@ When we calculate your score, we will strip out comments and blank lines, and th
 different solutions, just comment out your original one and try a new one underneath
 in the same method body
 
-To check your score, simply run the tests using `ruby golf_test.rb`.
+To check your score, simply run the tests using `rake`.
+
+The first time you run this, you'll be prompted for a team name, so we can track your scores against everyone else playing.
+
+## Some basic rules
+
+* Any version of Ruby that runs the tests is allowed
+* Everything in the Ruby Standard Library can be used
+* No gems can be used
+* Code can't be hidden outside of the `hole<x>` methods
 
 ## Troubleshooting
 
