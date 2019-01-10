@@ -67,6 +67,23 @@ module Golf
 
   end # Hole 5
 
+  # Hole 6: Deck the halls
+  #
+  # Generate an array containing elements representing every card in a deck, including
+  # the jokers. Represent the cards using a two/three-character string:
+  #
+  # * the first character is the rank, ace to king: A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K
+  # * the second character is the suit: C, H, S, D for clubs, hearts, spaces and diamonds
+  # * each joker should just be a single character string 'J'
+  #
+  # The order of the cards doesn't matter
+  #
+  def hole6
+
+    # put your implementation in here, but please leave the comments above and at the 'end'
+
+  end # Hole 5
+
   # Please ignore this little bit of code plumbing
   extend self
 end
